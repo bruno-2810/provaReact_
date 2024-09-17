@@ -1,0 +1,20 @@
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .card {
+        padding: 8px;
+        width: 30%;
+        background-color: white;
+        box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.3);
+
+        .line {
+            margin: -8px;
+            margin-bottom: 10px;
+            height: 10px;
+            background-color: yellow;
+        }
+    }
+}
